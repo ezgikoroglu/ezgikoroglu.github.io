@@ -4,7 +4,7 @@
     padding: 0px;           
 }
 #sayfa{
-    margin-top:2px;
+    margin:10px auto auto auto;
     width: 400px;
     min-height:600px;
     border-style: solid;
