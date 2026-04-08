@@ -1,69 +1,90 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="utf-8">
-    <title>Kişisel Web Site</title>
-    <meta name="description" content="Kişisel Web Site">
-    <meta name="keywords" content="web,site,kişisel">
-    <link rel="stylesheet" href="Style.css">
-
+  <meta charset="UTF-8">
+  <title>Ezgi | Flutter Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+    header {
+      padding: 40px;
+      text-align: center;
+      background: #1e293b;
+    }
+    h1 { margin: 0; }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+  </style>
 </head>
+
 <body>
-    <div id="sayfa">
-        <header id="banner">
-            <div id="logo">
-                <a href="index.html">
-                    <img src="resimler/resim.jpg" width="100" height="80" alt="Resim" title="resim">
-                </a>
 
-            </div>
-            <div id="sosyal">
-                <a href="https://tr-tr.facebook.com/" target="_blank" id="ikon"><img src="resimler/face.jpg" width="31" height="40"></a>
-                <a href="https://www.instagram.com/" target="_blank" id="ikon"><img src="resimler/insta.png" width="30" height="40"></a>
-                <a href="https://twitter.com/login?lang=tr" target="_blank" id="ikon"><img src="resimler/twit.png" width="30" height="35"></a>
+<header>
+  <h1>Ezgi 👋</h1>
+  <p>Flutter Developer | Firebase | Mobile App</p>
+</header>
 
+<section>
+  <h2>🚀 Hakkımda</h2>
+  <div class="card">
+    <p>
+      Merhaba! Ben Ezgi. Flutter ve Firebase kullanarak mobil uygulamalar geliştiriyorum.
+      Özellikle gerçek zamanlı veri, NFC ve kullanıcı odaklı sistemler üzerine çalışıyorum.
+    </p>
+  </div>
 
-            </div>
+  <h2>📱 Projeler</h2>
 
-        </header>
-        <nav id="anamenu">
-            <ul>
-                <li><a href="index.html">Anasayfa</a></li>
-                <li><a href="ben-kimim.html">Ben Kimim?</a></li>
-                <li><a href="egitim.html">Eğitim</a></li>
-                <li><a href="iletisim.html">İletişim</a></li>
-            </ul>
+  <div class="card">
+    <h3>GoNFC</h3>
+    <p>NFC tabanlı veri okuma ve yönlendirme uygulaması.</p>
+    <p>Kullanılan Teknolojiler: Flutter, Firebase, NFC</p>
+  </div>
 
-        </nav>
-        <article id="icerik">
-            <img class="resim" src="resimler/images.jpg" alt="resim" title="dünya">
-            <h1 class="baslik">Başlık</h1>
-            <p class="metin">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Nihil accusantium, voluptatum non officiis aperiam, neque veritatis consequuntu
-            r odio nobis est autem cumque quasi repellat hic sint impedit enim doloremque 
-            debitis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consequatur,
-            earum fugit est, laudantium neque iusto vel et architecto dolorem laborum autem aperiam,
-            totam hic tenetur provident adipisci asperiores delectus.</p>
-        </article>
-        <aside id="yanmenu">
-            <h1 class="baslik">Haber 1</h1>
-            <p>asdfghj sghfg vbgh fgnddkkd ddddkd</p> <br>
-            <h1 class="baslik">Haber 2</h1>
-            <p>asdfghj sghfg vbgh fgnddkkd ddddkd</p><br>
-            <h1 class="baslik">Haber 3</h1>
-            <p>asdfghj sghfg vbgh fgnddkkd ddddkd</p>
-        </aside>
-        <footer id="altmenu">
-            <a href="index.html">Anasayfa</a> |
-            <a href="benkimim.html">Ben Kimim?</a> |
-            <a href="egitim.html">Eğitim</a> |
-            <a href="iletisim.html">İletişim</a> |
-            <br>
-            <p>Tüm hakları saklıdır!</p>
+  <div class="card">
+    <h3>Film Öneri Sistemi</h3>
+    <p>Kullanıcı bazlı makine öğrenmesi ile film önerisi yapan sistem.</p>
+  </div>
 
-        </footer>
+  <h2>🧠 Teknolojiler</h2>
+  <div class="card">
+    <p>Flutter</p>
+    <p>Firebase</p>
+    <p>Dart</p>
+    <p>Machine Learning (temel)</p>
+  </div>
 
-    </div>
+  <h2>📬 İletişim</h2>
+  <div class="card">
+    <p>Email: example@mail.com</p>
+    <p>
+      GitHub: 
+      <a href="https://github.com/kullaniciadi" target="_blank">
+        github.com/kullaniciadi
+      </a>
+    </p>
+  </div>
+
+</section>
 
 </body>
 </html>
